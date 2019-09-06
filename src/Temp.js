@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import Data from './data.json';
-
+// import './temp.css'
 import {Table} from 'react-bootstrap';
 class Temp extends Component
 {
@@ -47,8 +47,8 @@ class Temp extends Component
 
         //Using Table from react-bootstrap 
         return(
-            <div>
-                <Table>
+            <div className="main-div">
+                <Table responsive bordered hover size="lg" variant="dark">
                 <thead>
                 <tr>
                     <th>#</th>
